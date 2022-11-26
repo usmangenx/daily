@@ -1,10 +1,3 @@
-// get maximum number
-// maximumNumber = (num1 , num2)   =>   {
-//       if (num1>num2)
-//         return num1;
-//         return num2;
-//        }
-//       console.log(maximumNumber(6, 4));
 
 // Check if landscape
 
@@ -26,14 +19,14 @@
 
 //checkSpeed
 
-checkSpeed = (speed) => {
-  const speedLimit = 70;
-  const speedPoints = 5;
-  if (speed <= speedLimit) return "ok";
-  else {
-    const points = Math.floor((speed - speedLimit) / speedPoints);
-    if (points >= 12) return "License Suspended";
-    else return "points" + " " + points;
-  }
-};
-console.log(checkSpeed(380));
+// checkSpeed = (speed) => {
+//   const speedLimit = 70;
+//   const speedPoints = 5;
+//   if (speed <= speedLimit) return "ok";
+//   else {
+//     const points = Math.floor((speed - speedLimit) / speedPoints);
+//     if (points >= 12) return "License Suspended";
+//     else return "points" + " " + points;
+//   }
+// };
+// console.log(checkSpeed(380));
