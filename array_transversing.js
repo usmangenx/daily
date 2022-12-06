@@ -1,8 +1,10 @@
 let arry = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let position = 3;
+let req = 5;
+let index = undefined;
 
-for (let i = 3; i < arry.length; i++) {
-  arry[i] = arry[i + 1];
-  Data.length = data.length - 1;
+for (let i = 0; i < arry.length; i++) {
+  if (arry[i] === req) {
+    index = i;
+  }
 }
-
+console.log(index);
