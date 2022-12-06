@@ -1,10 +1,11 @@
-let arry = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let req = 5;
-let index = undefined;
-
-for (let i = 0; i < arry.length; i++) {
-  if (arry[i] === req) {
-    index = i;
-  }
+let arry = [23, 30, 40, 54];
+let arry2 = [50, 18, 16, 23];
+let arry3 = [];
+for (i = 0; i < arry.length; i++) {
+  arry3[i] = arry[i];
 }
-console.log(index);
+for (i = 0; i < arry2.length; i++) {
+  arry3[arry.length + i] = arry2[i];
+}
+
+console.log(arry3);
